@@ -35,7 +35,11 @@
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
-                transition: height, .3s ease;
+                transition: height, .5s ease;
+
+                .answer{
+                    margin-bottom: 15px;
+                }
             }
 
             &--is-open{
@@ -47,7 +51,7 @@
                 .faq__questions__item__answer{
                     height: auto;
                     padding-bottom: 24px;
-                    transition: height, .3s ease;
+                    transition: height, .5s ease;
                 }
             }
         }
