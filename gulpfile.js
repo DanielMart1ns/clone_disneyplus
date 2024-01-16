@@ -1,6 +1,11 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const imagemin = require('gulp-imagemin')
+const uglify = require('gulp-uglify')
+
+const scripts=()=>{
+    return src('./src/main.js')
+}
 
 const styles=()=>{
     return gulp.src('./src/styles/*.scss')
